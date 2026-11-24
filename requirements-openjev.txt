@@ -1,0 +1,26 @@
+# OpenJev preprocessing, embeddings, SFT, GSPO and recommendation.
+# Target: CPython 3.11, Linux x86_64 (glibc >= 2.28), NVIDIA GPU.
+# PyTorch 2.8.0 uses CUDA 12.8 wheels on this target.
+# Use the existing openjev_sid environment if it already satisfies these versions.
+
+# Keep NumPy < 2 for the binary ABI used by scikit-learn 1.2.2.
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.2.2
+tqdm==4.70.1
+
+# Open-Jev / Qwen3.5 training and inference stack.
+# torch pulls its matching NVIDIA runtime libraries on Linux x86_64.
+torch==2.8.0
+transformers==5.10.2
+peft==0.19.1
+accelerate==1.13.0
+safetensors==0.8.0
+datasets==5.0.0
+jinja2==3.1.6
+
+# Qwen3.5 linear-attention acceleration; prebuilt wheels, no flash-attn build.
+flash-linear-attention==0.5.2 ; platform_system == "Linux" and platform_machine == "x86_64"
+fla-core==0.5.2 ; platform_system == "Linux" and platform_machine == "x86_64"
+triton==3.4.0 ; platform_system == "Linux" and platform_machine == "x86_64"
+ninja==1.13.0 ; platform_system == "Linux" and platform_machine == "x86_64"

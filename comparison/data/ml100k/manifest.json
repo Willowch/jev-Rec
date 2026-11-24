@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "dataset": "ml100k",
+    "max_history": 20,
+    "split_protocol": "last=test, penultimate=validation, third-last=calibration, earlier=train",
+    "sequences_sha256": "dbd040025b50db36c5dd958e5728dc3a798c214bfddf5fb2076e0b0f7929f606",
+    "catalog_sha256": "1ed7cc6f7dc9f79278fe8aaefd9254bc6954402c637d9defdb005134af3aff69"
+  },
+  "source": {
+    "ratings_sha256": "50d2a982c66986937beb9ffb3aa76efe955bf3d5c6b761f4e3a7cd717c6a3229",
+    "pilot_seed": 42,
+    "raw_users": 943
+  },
+  "users": 256,
+  "items": 1682,
+  "train_pairs": 256,
+  "train_selection": "last_before_calibration",
+  "metadata_sha256": "19d7b16a9ab889eb4d14230b7f41a60b0bf060809f23b42c560a1ab2bfa85932"
+}

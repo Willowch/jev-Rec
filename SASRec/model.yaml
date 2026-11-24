@@ -1,0 +1,2 @@
+loss_type: CE
+MAX_ITEM_LIST_LENGTH: 20

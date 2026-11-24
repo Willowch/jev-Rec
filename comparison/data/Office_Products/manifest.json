@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "dataset": "Office_Products",
+    "max_history": 20,
+    "split_protocol": "last=test, penultimate=validation, third-last=calibration, earlier=train",
+    "sequences_sha256": "4302edaf1e0edcb44cfb7c4824ec4fbb5f7699a8a31ddc31cf6f812399c70c71",
+    "catalog_sha256": "3d9d617d5fc9dab9a7067c5ff38adca3701bcf492c65ae4df9a7065ebe830105"
+  },
+  "source": {
+    "ratings_sha256": "325277af44e0566f21a6e03022f83b030e8e6e94300a0f7a2ae58490062d8670",
+    "metadata_sha256": "6912cdf3edf0e36520cf8cfb4ec1f87542423021a48459dbb66193b1c2a1382d",
+    "raw_reviews": 800357,
+    "raw_users": 101501,
+    "duplicate_user_item_reviews": 59654,
+    "users_below_min_items": 13118
+  },
+  "users": 88383,
+  "items": 27917,
+  "train_pairs": 337193,
+  "metadata_sha256": "62303284e75451eb9e2bdf8c0d08371adf7fc5f3c9ab05c1dafe63393791d5f8"
+}

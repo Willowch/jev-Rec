@@ -1,0 +1,59 @@
+# ============================================================
+# 只上传代码：数据、权重、训练产物、日志一律不进仓库
+# ============================================================
+
+# --- 压缩包 / 打包产物（含 3.8GB 的 comparison-ready tar.gz） ---
+*.tar.gz
+*.tgz
+*.zip
+*.gz
+*.7z
+
+# --- 模型权重 / 向量 / 检查点（按扩展名兜底） ---
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.parquet
+*.onnx
+
+# --- Open-Jev 上游源码（本机权限异常，未纳入；见 OPENJEV_THIRD_PARTY.md） ---
+openjev_generative_rec/third_party/Open-Jev/
+
+# --- OpenJev 的离线权重与运行目录 ---
+openjev_generative_rec/models/
+openjev_generative_rec/runs/
+
+# --- 数据集（原始、处理后序列、特征缓存） ---
+comparison/data/raw/
+comparison/data/*/features/
+comparison/data/*/sequences.jsonl
+comparison/data/*/metadata.jsonl
+openjev_generative_rec/data/
+TIGER/02_data/
+TIGER/4_runs/
+SASRec/runs/
+BERT4Rec/runs/
+LETTER-TIGER/runs/
+MiniOneRec-main/MiniOneRec-main/data/
+
+# --- 实验结果（保留全量测试名单 cohorts，其余丢弃） ---
+comparison/results/*
+!comparison/results/cohorts/
+comparison/logs/
+outputs/
+_archive/
+
+# --- 本地依赖 / 缓存 ---
+**/local-deps/
+.venv/
+venv/
+**/__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+**/log_tensorboard/
+.DS_Store

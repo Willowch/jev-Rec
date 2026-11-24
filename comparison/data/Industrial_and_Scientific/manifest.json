@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "dataset": "Industrial_and_Scientific",
+    "max_history": 20,
+    "split_protocol": "last=test, penultimate=validation, third-last=calibration, earlier=train",
+    "sequences_sha256": "782f2428e8a21729118279dad71bac24907548aff1b60d677d230b46a8431277",
+    "catalog_sha256": "ba2b9d98e6fd281f5c4850e0022c90f2edc431f0b3ae480f3145a9f751464799"
+  },
+  "source": {
+    "ratings_sha256": "b7caf0901c77f172be833a7bf94fe52834d6da8ad429a2aeeecb922b89c5026a",
+    "metadata_sha256": "2d0fde57bfa563108c78076d5975515124ab6175d6a1380cc990cddd7f6f20b8",
+    "raw_reviews": 77071,
+    "raw_users": 11041,
+    "duplicate_user_item_reviews": 5046,
+    "users_below_min_items": 1710
+  },
+  "users": 9331,
+  "items": 5285,
+  "train_pairs": 28307,
+  "metadata_sha256": "c98c8e58b50526eef5feb80341800f170ed60a9ce94a761d4d5d749e75db7f96"
+}

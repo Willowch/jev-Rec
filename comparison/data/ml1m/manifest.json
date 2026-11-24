@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "dataset": "ml1m",
+    "max_history": 20,
+    "split_protocol": "last=test, penultimate=validation, third-last=calibration, earlier=train",
+    "sequences_sha256": "10e11dad97569acf820656f01274d65ee286a9417f73f26579b48d528dae2685",
+    "catalog_sha256": "cf2f702dff7225812445e15f5376be164600969600fb886cf274d9b2f6ede9a2"
+  },
+  "source": {
+    "ratings_sha256": "a6898adb50b9ca05aa231689da44c217cb524e7ebd39d264c56e2832f2c54e20",
+    "semantic_ids_sha256": "175d5076076574390ddb52ed45149e6a5cc77788d0aa814fd083dc66d153435c"
+  },
+  "users": 6040,
+  "items": 3883,
+  "train_pairs": 976049,
+  "metadata_sha256": "bb0ba02fd36628464da76799f95c599433e40d5d9963fe8bce3bc60d922a47f9"
+}

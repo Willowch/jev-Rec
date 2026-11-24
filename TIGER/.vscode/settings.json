@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "**/3_configs/mlflow.json": "jsonc"
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": false, 
+        "editor.formatOnSaveMode": "file"
+    },
+
+    "black-formatter.importStrategy": "useBundled",
+    "black-formatter.interpreter": [
+        "D:/03_Environments/02_IDEs/miniforge/python.exe"
+    ],
+    "black-formatter.args": [
+        "--line-length", "100",
+        "--target-version", "py39"
+    ]
+}

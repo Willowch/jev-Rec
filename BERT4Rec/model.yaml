@@ -1,0 +1,5 @@
+loss_type: CE
+MAX_ITEM_LIST_LENGTH: 21
+transform: mask_itemseq
+mask_ratio: 0.2
+ft_ratio: 1.0

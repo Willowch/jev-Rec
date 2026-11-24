@@ -1,0 +1,1037 @@
+{
+  "identity": {
+    "dataset": "ml100k",
+    "max_history": 20,
+    "split_protocol": "last=test, penultimate=validation, third-last=calibration, earlier=train",
+    "sequences_sha256": "dbd040025b50db36c5dd958e5728dc3a798c214bfddf5fb2076e0b0f7929f606",
+    "catalog_sha256": "1ed7cc6f7dc9f79278fe8aaefd9254bc6954402c637d9defdb005134af3aff69"
+  },
+  "scope": "pilot",
+  "seed": 42,
+  "entries": [
+    {
+      "user_id": "2",
+      "target_item": "281"
+    },
+    {
+      "user_id": "5",
+      "target_item": "457"
+    },
+    {
+      "user_id": "6",
+      "target_item": "272"
+    },
+    {
+      "user_id": "14",
+      "target_item": "269"
+    },
+    {
+      "user_id": "17",
+      "target_item": "508"
+    },
+    {
+      "user_id": "18",
+      "target_item": "923"
+    },
+    {
+      "user_id": "19",
+      "target_item": "692"
+    },
+    {
+      "user_id": "21",
+      "target_item": "769"
+    },
+    {
+      "user_id": "25",
+      "target_item": "455"
+    },
+    {
+      "user_id": "27",
+      "target_item": "286"
+    },
+    {
+      "user_id": "29",
+      "target_item": "1019"
+    },
+    {
+      "user_id": "30",
+      "target_item": "678"
+    },
+    {
+      "user_id": "34",
+      "target_item": "899"
+    },
+    {
+      "user_id": "35",
+      "target_item": "1025"
+    },
+    {
+      "user_id": "39",
+      "target_item": "937"
+    },
+    {
+      "user_id": "50",
+      "target_item": "123"
+    },
+    {
+      "user_id": "51",
+      "target_item": "679"
+    },
+    {
+      "user_id": "54",
+      "target_item": "298"
+    },
+    {
+      "user_id": "57",
+      "target_item": "199"
+    },
+    {
+      "user_id": "62",
+      "target_item": "401"
+    },
+    {
+      "user_id": "65",
+      "target_item": "238"
+    },
+    {
+      "user_id": "67",
+      "target_item": "833"
+    },
+    {
+      "user_id": "77",
+      "target_item": "97"
+    },
+    {
+      "user_id": "85",
+      "target_item": "316"
+    },
+    {
+      "user_id": "86",
+      "target_item": "683"
+    },
+    {
+      "user_id": "89",
+      "target_item": "187"
+    },
+    {
+      "user_id": "93",
+      "target_item": "412"
+    },
+    {
+      "user_id": "111",
+      "target_item": "896"
+    },
+    {
+      "user_id": "120",
+      "target_item": "827"
+    },
+    {
+      "user_id": "130",
+      "target_item": "669"
+    },
+    {
+      "user_id": "139",
+      "target_item": "458"
+    },
+    {
+      "user_id": "145",
+      "target_item": "988"
+    },
+    {
+      "user_id": "148",
+      "target_item": "1012"
+    },
+    {
+      "user_id": "149",
+      "target_item": "337"
+    },
+    {
+      "user_id": "150",
+      "target_item": "325"
+    },
+    {
+      "user_id": "151",
+      "target_item": "322"
+    },
+    {
+      "user_id": "158",
+      "target_item": "290"
+    },
+    {
+      "user_id": "173",
+      "target_item": "292"
+    },
+    {
+      "user_id": "174",
+      "target_item": "138"
+    },
+    {
+      "user_id": "175",
+      "target_item": "147"
+    },
+    {
+      "user_id": "178",
+      "target_item": "682"
+    },
+    {
+      "user_id": "179",
+      "target_item": "895"
+    },
+    {
+      "user_id": "184",
+      "target_item": "1167"
+    },
+    {
+      "user_id": "185",
+      "target_item": "287"
+    },
+    {
+      "user_id": "186",
+      "target_item": "98"
+    },
+    {
+      "user_id": "189",
+      "target_item": "512"
+    },
+    {
+      "user_id": "190",
+      "target_item": "826"
+    },
+    {
+      "user_id": "192",
+      "target_item": "1061"
+    },
+    {
+      "user_id": "193",
+      "target_item": "366"
+    },
+    {
+      "user_id": "194",
+      "target_item": "1207"
+    },
+    {
+      "user_id": "199",
+      "target_item": "111"
+    },
+    {
+      "user_id": "201",
+      "target_item": "272"
+    },
+    {
+      "user_id": "202",
+      "target_item": "191"
+    },
+    {
+      "user_id": "203",
+      "target_item": "93"
+    },
+    {
+      "user_id": "214",
+      "target_item": "1129"
+    },
+    {
+      "user_id": "222",
+      "target_item": "1054"
+    },
+    {
+      "user_id": "228",
+      "target_item": "650"
+    },
+    {
+      "user_id": "230",
+      "target_item": "100"
+    },
+    {
+      "user_id": "232",
+      "target_item": "117"
+    },
+    {
+      "user_id": "233",
+      "target_item": "313"
+    },
+    {
+      "user_id": "237",
+      "target_item": "603"
+    },
+    {
+      "user_id": "240",
+      "target_item": "353"
+    },
+    {
+      "user_id": "242",
+      "target_item": "361"
+    },
+    {
+      "user_id": "248",
+      "target_item": "121"
+    },
+    {
+      "user_id": "250",
+      "target_item": "1014"
+    },
+    {
+      "user_id": "252",
+      "target_item": "124"
+    },
+    {
+      "user_id": "257",
+      "target_item": "345"
+    },
+    {
+      "user_id": "263",
+      "target_item": "250"
+    },
+    {
+      "user_id": "265",
+      "target_item": "282"
+    },
+    {
+      "user_id": "273",
+      "target_item": "338"
+    },
+    {
+      "user_id": "278",
+      "target_item": "173"
+    },
+    {
+      "user_id": "280",
+      "target_item": "1217"
+    },
+    {
+      "user_id": "283",
+      "target_item": "433"
+    },
+    {
+      "user_id": "288",
+      "target_item": "435"
+    },
+    {
+      "user_id": "290",
+      "target_item": "1336"
+    },
+    {
+      "user_id": "291",
+      "target_item": "496"
+    },
+    {
+      "user_id": "294",
+      "target_item": "902"
+    },
+    {
+      "user_id": "299",
+      "target_item": "915"
+    },
+    {
+      "user_id": "300",
+      "target_item": "1012"
+    },
+    {
+      "user_id": "302",
+      "target_item": "680"
+    },
+    {
+      "user_id": "303",
+      "target_item": "330"
+    },
+    {
+      "user_id": "305",
+      "target_item": "163"
+    },
+    {
+      "user_id": "309",
+      "target_item": "333"
+    },
+    {
+      "user_id": "312",
+      "target_item": "835"
+    },
+    {
+      "user_id": "317",
+      "target_item": "678"
+    },
+    {
+      "user_id": "319",
+      "target_item": "880"
+    },
+    {
+      "user_id": "321",
+      "target_item": "1050"
+    },
+    {
+      "user_id": "326",
+      "target_item": "565"
+    },
+    {
+      "user_id": "327",
+      "target_item": "435"
+    },
+    {
+      "user_id": "328",
+      "target_item": "911"
+    },
+    {
+      "user_id": "331",
+      "target_item": "1296"
+    },
+    {
+      "user_id": "334",
+      "target_item": "1525"
+    },
+    {
+      "user_id": "335",
+      "target_item": "678"
+    },
+    {
+      "user_id": "351",
+      "target_item": "1316"
+    },
+    {
+      "user_id": "355",
+      "target_item": "872"
+    },
+    {
+      "user_id": "359",
+      "target_item": "268"
+    },
+    {
+      "user_id": "361",
+      "target_item": "340"
+    },
+    {
+      "user_id": "362",
+      "target_item": "1025"
+    },
+    {
+      "user_id": "366",
+      "target_item": "860"
+    },
+    {
+      "user_id": "370",
+      "target_item": "42"
+    },
+    {
+      "user_id": "373",
+      "target_item": "1444"
+    },
+    {
+      "user_id": "381",
+      "target_item": "294"
+    },
+    {
+      "user_id": "385",
+      "target_item": "487"
+    },
+    {
+      "user_id": "386",
+      "target_item": "982"
+    },
+    {
+      "user_id": "393",
+      "target_item": "539"
+    },
+    {
+      "user_id": "394",
+      "target_item": "313"
+    },
+    {
+      "user_id": "397",
+      "target_item": "346"
+    },
+    {
+      "user_id": "399",
+      "target_item": "2"
+    },
+    {
+      "user_id": "402",
+      "target_item": "510"
+    },
+    {
+      "user_id": "405",
+      "target_item": "1591"
+    },
+    {
+      "user_id": "412",
+      "target_item": "81"
+    },
+    {
+      "user_id": "415",
+      "target_item": "641"
+    },
+    {
+      "user_id": "423",
+      "target_item": "977"
+    },
+    {
+      "user_id": "424",
+      "target_item": "25"
+    },
+    {
+      "user_id": "426",
+      "target_item": "505"
+    },
+    {
+      "user_id": "427",
+      "target_item": "990"
+    },
+    {
+      "user_id": "428",
+      "target_item": "326"
+    },
+    {
+      "user_id": "429",
+      "target_item": "537"
+    },
+    {
+      "user_id": "431",
+      "target_item": "689"
+    },
+    {
+      "user_id": "435",
+      "target_item": "321"
+    },
+    {
+      "user_id": "437",
+      "target_item": "629"
+    },
+    {
+      "user_id": "456",
+      "target_item": "258"
+    },
+    {
+      "user_id": "457",
+      "target_item": "527"
+    },
+    {
+      "user_id": "459",
+      "target_item": "216"
+    },
+    {
+      "user_id": "461",
+      "target_item": "285"
+    },
+    {
+      "user_id": "462",
+      "target_item": "346"
+    },
+    {
+      "user_id": "467",
+      "target_item": "288"
+    },
+    {
+      "user_id": "472",
+      "target_item": "549"
+    },
+    {
+      "user_id": "478",
+      "target_item": "1221"
+    },
+    {
+      "user_id": "481",
+      "target_item": "780"
+    },
+    {
+      "user_id": "482",
+      "target_item": "249"
+    },
+    {
+      "user_id": "483",
+      "target_item": "1152"
+    },
+    {
+      "user_id": "488",
+      "target_item": "185"
+    },
+    {
+      "user_id": "491",
+      "target_item": "325"
+    },
+    {
+      "user_id": "492",
+      "target_item": "527"
+    },
+    {
+      "user_id": "494",
+      "target_item": "126"
+    },
+    {
+      "user_id": "497",
+      "target_item": "1555"
+    },
+    {
+      "user_id": "503",
+      "target_item": "949"
+    },
+    {
+      "user_id": "505",
+      "target_item": "648"
+    },
+    {
+      "user_id": "507",
+      "target_item": "1034"
+    },
+    {
+      "user_id": "510",
+      "target_item": "457"
+    },
+    {
+      "user_id": "516",
+      "target_item": "357"
+    },
+    {
+      "user_id": "525",
+      "target_item": "269"
+    },
+    {
+      "user_id": "528",
+      "target_item": "423"
+    },
+    {
+      "user_id": "529",
+      "target_item": "264"
+    },
+    {
+      "user_id": "533",
+      "target_item": "303"
+    },
+    {
+      "user_id": "538",
+      "target_item": "216"
+    },
+    {
+      "user_id": "540",
+      "target_item": "220"
+    },
+    {
+      "user_id": "545",
+      "target_item": "142"
+    },
+    {
+      "user_id": "558",
+      "target_item": "936"
+    },
+    {
+      "user_id": "561",
+      "target_item": "362"
+    },
+    {
+      "user_id": "573",
+      "target_item": "478"
+    },
+    {
+      "user_id": "574",
+      "target_item": "213"
+    },
+    {
+      "user_id": "576",
+      "target_item": "248"
+    },
+    {
+      "user_id": "577",
+      "target_item": "531"
+    },
+    {
+      "user_id": "578",
+      "target_item": "1264"
+    },
+    {
+      "user_id": "583",
+      "target_item": "425"
+    },
+    {
+      "user_id": "587",
+      "target_item": "1624"
+    },
+    {
+      "user_id": "590",
+      "target_item": "1331"
+    },
+    {
+      "user_id": "593",
+      "target_item": "1016"
+    },
+    {
+      "user_id": "595",
+      "target_item": "1264"
+    },
+    {
+      "user_id": "597",
+      "target_item": "825"
+    },
+    {
+      "user_id": "600",
+      "target_item": "1274"
+    },
+    {
+      "user_id": "606",
+      "target_item": "1190"
+    },
+    {
+      "user_id": "610",
+      "target_item": "673"
+    },
+    {
+      "user_id": "620",
+      "target_item": "112"
+    },
+    {
+      "user_id": "625",
+      "target_item": "265"
+    },
+    {
+      "user_id": "627",
+      "target_item": "808"
+    },
+    {
+      "user_id": "631",
+      "target_item": "1527"
+    },
+    {
+      "user_id": "635",
+      "target_item": "15"
+    },
+    {
+      "user_id": "636",
+      "target_item": "235"
+    },
+    {
+      "user_id": "637",
+      "target_item": "535"
+    },
+    {
+      "user_id": "646",
+      "target_item": "1313"
+    },
+    {
+      "user_id": "648",
+      "target_item": "298"
+    },
+    {
+      "user_id": "653",
+      "target_item": "245"
+    },
+    {
+      "user_id": "654",
+      "target_item": "269"
+    },
+    {
+      "user_id": "660",
+      "target_item": "1483"
+    },
+    {
+      "user_id": "673",
+      "target_item": "528"
+    },
+    {
+      "user_id": "675",
+      "target_item": "1255"
+    },
+    {
+      "user_id": "681",
+      "target_item": "289"
+    },
+    {
+      "user_id": "682",
+      "target_item": "304"
+    },
+    {
+      "user_id": "685",
+      "target_item": "299"
+    },
+    {
+      "user_id": "689",
+      "target_item": "260"
+    },
+    {
+      "user_id": "695",
+      "target_item": "678"
+    },
+    {
+      "user_id": "701",
+      "target_item": "275"
+    },
+    {
+      "user_id": "704",
+      "target_item": "679"
+    },
+    {
+      "user_id": "709",
+      "target_item": "823"
+    },
+    {
+      "user_id": "710",
+      "target_item": "346"
+    },
+    {
+      "user_id": "712",
+      "target_item": "652"
+    },
+    {
+      "user_id": "720",
+      "target_item": "902"
+    },
+    {
+      "user_id": "721",
+      "target_item": "406"
+    },
+    {
+      "user_id": "723",
+      "target_item": "988"
+    },
+    {
+      "user_id": "726",
+      "target_item": "409"
+    },
+    {
+      "user_id": "727",
+      "target_item": "1250"
+    },
+    {
+      "user_id": "728",
+      "target_item": "285"
+    },
+    {
+      "user_id": "729",
+      "target_item": "748"
+    },
+    {
+      "user_id": "731",
+      "target_item": "1269"
+    },
+    {
+      "user_id": "732",
+      "target_item": "938"
+    },
+    {
+      "user_id": "733",
+      "target_item": "546"
+    },
+    {
+      "user_id": "738",
+      "target_item": "136"
+    },
+    {
+      "user_id": "745",
+      "target_item": "286"
+    },
+    {
+      "user_id": "750",
+      "target_item": "749"
+    },
+    {
+      "user_id": "751",
+      "target_item": "916"
+    },
+    {
+      "user_id": "753",
+      "target_item": "673"
+    },
+    {
+      "user_id": "754",
+      "target_item": "819"
+    },
+    {
+      "user_id": "756",
+      "target_item": "55"
+    },
+    {
+      "user_id": "762",
+      "target_item": "709"
+    },
+    {
+      "user_id": "764",
+      "target_item": "276"
+    },
+    {
+      "user_id": "766",
+      "target_item": "577"
+    },
+    {
+      "user_id": "769",
+      "target_item": "1312"
+    },
+    {
+      "user_id": "772",
+      "target_item": "898"
+    },
+    {
+      "user_id": "785",
+      "target_item": "273"
+    },
+    {
+      "user_id": "788",
+      "target_item": "1183"
+    },
+    {
+      "user_id": "790",
+      "target_item": "269"
+    },
+    {
+      "user_id": "791",
+      "target_item": "181"
+    },
+    {
+      "user_id": "794",
+      "target_item": "248"
+    },
+    {
+      "user_id": "797",
+      "target_item": "720"
+    },
+    {
+      "user_id": "798",
+      "target_item": "270"
+    },
+    {
+      "user_id": "802",
+      "target_item": "760"
+    },
+    {
+      "user_id": "803",
+      "target_item": "307"
+    },
+    {
+      "user_id": "812",
+      "target_item": "292"
+    },
+    {
+      "user_id": "819",
+      "target_item": "315"
+    },
+    {
+      "user_id": "825",
+      "target_item": "844"
+    },
+    {
+      "user_id": "832",
+      "target_item": "25"
+    },
+    {
+      "user_id": "833",
+      "target_item": "344"
+    },
+    {
+      "user_id": "839",
+      "target_item": "846"
+    },
+    {
+      "user_id": "840",
+      "target_item": "580"
+    },
+    {
+      "user_id": "841",
+      "target_item": "1294"
+    },
+    {
+      "user_id": "844",
+      "target_item": "921"
+    },
+    {
+      "user_id": "845",
+      "target_item": "909"
+    },
+    {
+      "user_id": "846",
+      "target_item": "452"
+    },
+    {
+      "user_id": "847",
+      "target_item": "417"
+    },
+    {
+      "user_id": "849",
+      "target_item": "133"
+    },
+    {
+      "user_id": "851",
+      "target_item": "915"
+    },
+    {
+      "user_id": "853",
+      "target_item": "1025"
+    },
+    {
+      "user_id": "857",
+      "target_item": "24"
+    },
+    {
+      "user_id": "858",
+      "target_item": "334"
+    },
+    {
+      "user_id": "859",
+      "target_item": "421"
+    },
+    {
+      "user_id": "866",
+      "target_item": "321"
+    },
+    {
+      "user_id": "867",
+      "target_item": "956"
+    },
+    {
+      "user_id": "874",
+      "target_item": "654"
+    },
+    {
+      "user_id": "878",
+      "target_item": "174"
+    },
+    {
+      "user_id": "883",
+      "target_item": "752"
+    },
+    {
+      "user_id": "887",
+      "target_item": "1035"
+    },
+    {
+      "user_id": "888",
+      "target_item": "762"
+    },
+    {
+      "user_id": "893",
+      "target_item": "771"
+    },
+    {
+      "user_id": "901",
+      "target_item": "864"
+    },
+    {
+      "user_id": "903",
+      "target_item": "528"
+    },
+    {
+      "user_id": "904",
+      "target_item": "603"
+    },
+    {
+      "user_id": "905",
+      "target_item": "1011"
+    },
+    {
+      "user_id": "919",
+      "target_item": "596"
+    },
+    {
+      "user_id": "925",
+      "target_item": "788"
+    },
+    {
+      "user_id": "928",
+      "target_item": "333"
+    },
+    {
+      "user_id": "933",
+      "target_item": "1228"
+    },
+    {
+      "user_id": "935",
+      "target_item": "846"
+    },
+    {
+      "user_id": "939",
+      "target_item": "254"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# SASRec, BERT4Rec, TIGER and LETTER-TIGER on CPython 3.11.
+# Create the baseline venv with --system-site-packages from openjev_sid
+# to reuse its CUDA PyTorch and other matching dependencies.
+
+torch==2.8.0
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.2.2
+tqdm==4.70.1
+pandas==1.5.3
+pyarrow==23.0.1
+
+# SASRec, BERT4Rec and LETTER's collaborative encoder.
+recbole==1.2.1
+
+# TIGER and LETTER share Sentence-T5 features.
+transformers==5.10.2
+sentence-transformers==5.4.1
+sentencepiece==0.2.1
+
+# LETTER tokenizer.
+k-means-constrained==0.7.3
+ortools==9.7.2996

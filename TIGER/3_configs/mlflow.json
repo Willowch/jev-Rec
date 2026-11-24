@@ -1,0 +1,7 @@
+{ // 共用配置：各项均为字符串；相对路径以 TIGER 项目根目录为起点。
+  "tracking_uri": "http://127.0.0.1:5000", // MLflow 服务地址，训练客户端与启动脚本使用同一地址。
+  "backend_store_path": "4_runs/mlflow/mlflow.db", // SQLite 数据库文件，保存 Run、参数、指标和标签。
+  "artifact_root": "4_runs/mlflow/artifacts", // 服务端附件目录，存放上传的权重、源码和 JSON 等文件。
+  "run_root": "4_runs/01_TIGER", // 训练本地输出根目录；下级按 数据集/阶段/Run ID 分开保存。
+  "experiment_prefix": "TIGER" // 默认实验组名前缀，如 TIGER/Musical_Instruments；可用命令行覆盖实验组名。
+} // 配置结束；支持 // 行注释，字符串内的 http:// 等内容保持原样。
