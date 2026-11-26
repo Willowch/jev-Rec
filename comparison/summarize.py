@@ -41,6 +41,9 @@ def summarize(paths, data_dir, cohort_path, dataset, include_at20, *, baselines_
             display_names[model] = "OpenJev (full catalog)"
         elif model in ("OpenJev", "TIGER", "LETTER-TIGER") and result.get("beam_size") != TOP_K:
             raise ValueError(f"{path}: expected beam size {TOP_K}")
+        if model == "OpenJev" and result.get("method") == "openjev_sid_projection_v1":
+            display_names[model] = ("OpenJev (SID projection + GSPO)" if result.get("objective") == "gspo"
+                                    else "OpenJev (SID projection)")
         require_training_selection(result)
         if result.get("validation_protocol") != expected_validation:
             raise ValueError(f"{path}: {model} must use the shared validation set for NDCG@10 selection")
